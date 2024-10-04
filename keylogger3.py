@@ -22,7 +22,7 @@ def send_email():
     email_server.login("x@gmail.com", "x1x2x3x4x5")
     email_server.sendmail("x@gmail.com", "x@gmail.com", "Test message")
     email_server.quit()
-# google mail + security + lessecury + on -> yoksa bağlanmaz ve mail gelmez
+# google mail + security + lessecury + on 
 
 send_email()
 
